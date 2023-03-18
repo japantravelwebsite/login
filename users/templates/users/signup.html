@@ -17,13 +17,11 @@
     <input name="student_id" type="text">
     <input type="submit" value="회원가입">
     <p></p>
+    <div>
+        {% for message in messages %}
+            {{ message.tag }}
+            {{ message }}
+        {% endfor %}
+    <div>
     <a href="{% url 'user:login' %}">뒤로가기</a>
 </form>
-
-<div>
-    <script>
-        var msg = '{{msg1}}'
-        alert(msg)
-    </script>
-    
-</div>

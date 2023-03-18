@@ -44,5 +44,8 @@ def signup_view(request):
             return redirect("user:login")
         else:
             print("빈칸오류")
-            # messages.info(request, "빈칸을 모두 채워주세요")
+            messages.info(request, "빈칸을 모두 채워주세요")
     return render(request, "users/signup.html")
+
+def jubu_view(request):
+    return render(request, "users/jubu.html")

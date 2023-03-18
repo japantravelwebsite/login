@@ -1,10 +1,39 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'login.css' %}">
 로그인 페이지
 <br>
 {% if user.is_authenticated %}
     로그인 성공!
     {{user.username}}님 환영합니다.
     <a href="{% url 'user:logout' %}">로그아웃</a>
+    
+<!--   <div class="lb-wrap">
+        <div class="lb-text">
+          <h2>주부지방</h2>
+        </div>
+        <div><img src="{% static '1.png' %}" alt=""></div>
+      </div>--> 
+      
+    <div>
+        <button class="styled" onclick="location.href='jubu'">주부</button>
+    </div>
+ <!--      <div>
+        <a href="{% url 'user:jubu' %}">주부지방</a>
+    </div>
+      <div>
+            <button class="styled1" type="button">"주부지방1"</button>
+            <button class="styled2" type="button">"주부지방2"</button>
+            <button class="styled3" type="button">"주부지방3"</button>
+            <button class="styled4" type="button">"주부지방4"</button>
+            <button class="styled5" type="button">"주부지방5"</button>
+            <button class="styled6" type="button">"주부지방6"</button> 
+            <button class="styled6" type="button">"주부지방7"</button> 
+        </div>--> 
+    <div><img src="{% static '1.jpg' %}" alt=""></div>
+      
+
 {% else %}
+
 
 <form action="" method="POST">
     {% csrf_token %}
@@ -12,34 +41,13 @@
     <input name="password" type="password">
     <input type="submit" value="로그인">
 </form>
+
+<div>
+    {% for message in messages %}
+        {{ message.tag }}
+        {{ message }}
+    {% endfor %}
+<div>
 <a href="{% url 'user:signup' %}">회원가입</a>
 
-
-<div>
-{% for message in messages %}
-    {{ message.tag }}
-    {{ message }}
-{% endfor %}
-<div>
-    id = {{messages}}
-</div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="{% static 'js/display_messages.js' %}"></script>
-<div>
-    <script type = "text/javascript">
-        var messages = [
-            {% for message in messages %}
-                {
-                    message: '{{message}}',
-                    tag: {{message.tag}},
-                },
-            {% endfor %}
-
-        ];
-        alert(message)
-    </script>
-    
-</div>
 {% endif %}
