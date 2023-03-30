@@ -1,0 +1,588 @@
+2023-03-29 01:16:00,777 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-29 01:16:04,105 [INFO] my: LOGOUT INFO
+2023-03-29 01:16:04,119 [INFO] my: LOGIN INFO
+2023-03-29 01:16:04,140 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:16:04,143 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:16:15,040 [INFO] my: LOGIN INFO
+2023-03-29 01:16:15,145 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:16:15,150 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:16:35,218 [WARNING] django.security.csrf: Forbidden (CSRF token from POST incorrect.): /auth/login
+2023-03-29 01:16:36,990 [INFO] my: LOGIN INFO
+2023-03-29 01:16:40,596 [INFO] my: LOGOUT INFO
+2023-03-29 01:16:40,606 [INFO] my: LOGIN INFO
+2023-03-29 01:16:40,619 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:16:40,620 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:16:51,923 [INFO] my: LOGIN INFO
+2023-03-29 01:16:52,026 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:16:52,026 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:17:20,397 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/jtwsite/settings.py changed, reloading.
+2023-03-29 01:19:01,918 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-29 01:19:13,154 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:19:23,202 [INFO] my: LOGIN INFO
+2023-03-29 01:19:23,227 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:19:23,228 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:19:31,752 [INFO] my: LOGOUT INFO
+2023-03-29 01:19:31,764 [INFO] my: LOGIN INFO
+2023-03-29 01:19:31,779 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:19:31,780 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:28:17,144 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-29 01:28:17,300 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-29 01:28:42,154 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-29 01:28:48,956 [WARNING] django.request: Not Found: /
+2023-03-29 01:28:51,851 [INFO] my: LOGIN INFO
+2023-03-29 01:28:51,890 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:28:51,891 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:29:10,874 [INFO] my: SIGNUP INFO
+2023-03-29 01:29:20,252 [INFO] my: LOGIN INFO
+2023-03-29 01:29:20,268 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:29:20,270 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:31:04,514 [INFO] my: LOGIN INFO
+2023-03-29 01:31:04,622 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:31:04,623 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:31:11,941 [INFO] my: LOGIN INFO
+2023-03-29 01:31:11,961 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:31:11,963 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:31:26,724 [INFO] my: LOGIN INFO
+2023-03-29 01:31:26,749 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:31:26,751 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:31:38,605 [INFO] my: LOGIN INFO
+2023-03-29 01:31:38,626 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:31:38,631 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:31:53,215 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:32:03,795 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:32:15,091 [WARNING] django.request: Not Found: /static/image/Nagoya.JPG
+2023-03-29 01:32:23,731 [WARNING] django.request: Not Found: /static/image/Gero.JPG
+2023-03-29 01:32:31,821 [WARNING] django.request: Not Found: /static/image/Gero2.JPG
+2023-03-29 01:32:38,036 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:32:50,251 [INFO] my: LOGIN INFO
+2023-03-29 01:32:50,276 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:32:50,277 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:35:06,850 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-29 01:35:07,046 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-29 01:35:17,691 [INFO] my: WRONGINFO
+2023-03-29 01:35:21,758 [INFO] my: LOGIN INFO
+2023-03-29 01:35:21,792 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-29 01:35:21,793 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-29 01:35:35,315 [INFO] my: CHUBU INFO
+2023-03-29 01:35:41,214 [INFO] my: CHOICE INFO
+2023-03-29 01:35:43,050 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:35:48,639 [INFO] my: CHOICE INFO
+2023-03-29 01:35:52,329 [INFO] my: TAKAYAMA INFO
+2023-03-29 01:35:54,370 [INFO] my: CHOICE INFO
+2023-03-29 01:35:56,153 [INFO] my: CHUBU INFO
+2023-03-29 01:35:58,359 [INFO] my: GERO INFO
+2023-03-29 01:35:58,375 [WARNING] django.request: Not Found: /static/image/Gero2.JPG
+2023-03-29 01:36:02,493 [INFO] my: CHUBU INFO
+2023-03-29 01:37:32,458 [INFO] my: TOYAMA INFO
+2023-03-29 01:37:32,475 [WARNING] django.request: Not Found: /static/image/Gero.JPG
+2023-03-29 01:37:34,974 [INFO] my: CHUBU INFO
+2023-03-30 14:31:41,276 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:32:23,455 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:32:28,994 [WARNING] django.request: Not Found: /
+2023-03-30 14:32:29,040 [WARNING] django.request: Not Found: /favicon.ico
+2023-03-30 14:32:37,676 [INFO] my: LOGIN INFO
+2023-03-30 14:32:37,702 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:32:37,704 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:34:43,041 [INFO] my: WRONGINFO
+2023-03-30 14:34:45,583 [INFO] my: LOGIN INFO
+2023-03-30 14:34:45,612 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:34:45,614 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:35:08,796 [INFO] my: CHUBU INFO
+2023-03-30 14:35:11,046 [INFO] my: CHOICE INFO
+2023-03-30 14:35:13,999 [INFO] my: TAKAYAMA INFO
+2023-03-30 14:35:19,479 [INFO] my: CHOICE INFO
+2023-03-30 14:35:21,812 [INFO] my: CHUBU INFO
+2023-03-30 14:35:23,780 [INFO] my: TOYAMA INFO
+2023-03-30 14:35:25,742 [INFO] my: CHUBU INFO
+2023-03-30 14:35:26,813 [INFO] my: CHOICE INFO
+2023-03-30 14:35:29,589 [INFO] my: CHUBU INFO
+2023-03-30 14:35:30,755 [INFO] my: GERO INFO
+2023-03-30 14:35:33,519 [INFO] my: CHUBU INFO
+2023-03-30 14:35:34,574 [INFO] my: NAGOYA INFO
+2023-03-30 14:36:39,088 [INFO] my: CHUBU INFO
+2023-03-30 14:36:40,496 [INFO] my: NAGOYA INFO
+2023-03-30 14:36:42,116 [INFO] my: CHUBU INFO
+2023-03-30 14:36:43,129 [INFO] my: GERO INFO
+2023-03-30 14:36:44,307 [INFO] my: CHUBU INFO
+2023-03-30 14:36:45,280 [INFO] my: CHOICE INFO
+2023-03-30 14:36:46,739 [INFO] my: CHUBU INFO
+2023-03-30 14:36:48,194 [INFO] my: TOYAMA INFO
+2023-03-30 14:36:49,982 [INFO] my: CHUBU INFO
+2023-03-30 14:40:10,677 [INFO] my: TOYAMA INFO
+2023-03-30 14:41:09,113 [INFO] my: TOYAMA INFO
+2023-03-30 14:41:18,850 [INFO] my: TOYAMA INFO
+2023-03-30 14:41:21,697 [INFO] my: CHUBU INFO
+2023-03-30 14:41:21,699 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 86, in Chubu_view
+    return render(request, "users/Chubu.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'choice_toyama' not found. 'choice_toyama' is not a valid view function or pattern name.
+2023-03-30 14:42:01,062 [INFO] my: CHUBU INFO
+2023-03-30 14:42:01,063 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 86, in Chubu_view
+    return render(request, "users/Chubu.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'choice_toyama' not found. 'choice_toyama' is not a valid view function or pattern name.
+2023-03-30 14:42:05,562 [INFO] my: CHUBU INFO
+2023-03-30 14:42:05,563 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 86, in Chubu_view
+    return render(request, "users/Chubu.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'choice_toyama' not found. 'choice_toyama' is not a valid view function or pattern name.
+2023-03-30 14:42:13,182 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:42:18,815 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:42:21,896 [WARNING] django.request: Not Found: /
+2023-03-30 14:42:21,959 [WARNING] django.request: Not Found: /favicon.ico
+2023-03-30 14:44:00,193 [INFO] my: LOGIN INFO
+2023-03-30 14:44:00,227 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:44:00,229 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:44:07,093 [INFO] my: CHUBU INFO
+2023-03-30 14:44:07,097 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 86, in Chubu_view
+    return render(request, "users/Chubu.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'choice_toyama' not found. 'choice_toyama' is not a valid view function or pattern name.
+2023-03-30 14:44:11,005 [INFO] my: WRONGINFO
+2023-03-30 14:44:12,560 [INFO] my: LOGIN INFO
+2023-03-30 14:44:12,581 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:44:12,584 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:44:14,872 [INFO] my: CHUBU INFO
+2023-03-30 14:44:14,873 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 86, in Chubu_view
+    return render(request, "users/Chubu.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'choice_toyama' not found. 'choice_toyama' is not a valid view function or pattern name.
+2023-03-30 14:47:29,873 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/urls.py changed, reloading.
+2023-03-30 14:47:30,073 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:47:33,137 [INFO] my: CHUBU INFO
+2023-03-30 14:47:35,223 [INFO] my: CHOICE INFO
+2023-03-30 14:47:36,482 [INFO] my: TOYAMA INFO
+2023-03-30 14:47:38,036 [INFO] my: CHUBU INFO
+2023-03-30 14:47:39,964 [INFO] my: CHOICE INFO
+2023-03-30 14:47:40,870 [INFO] my: TOYAMA INFO
+2023-03-30 14:48:21,022 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 14:48:21,185 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 14:48:49,269 [INFO] my: LOGIN INFO
+2023-03-30 14:48:49,307 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:48:49,311 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:48:51,668 [INFO] my: LOGOUT INFO
+2023-03-30 14:48:51,679 [INFO] my: LOGIN INFO
+2023-03-30 14:48:51,692 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:48:51,694 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:49:08,576 [INFO] my: LOGIN INFO
+2023-03-30 14:49:08,688 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 14:49:08,693 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 14:49:13,731 [INFO] my: CHUBU INFO
+2023-03-30 14:49:18,805 [INFO] my: CHOICE TOYAMA INFO
+2023-03-30 14:49:21,300 [INFO] my: TOYAMA INFO
+2023-03-30 14:49:24,379 [INFO] my: CHUBU INFO
+2023-03-30 14:49:27,372 [INFO] my: CHOICE GERO INFO
+2023-03-30 14:49:29,933 [INFO] my: GERO INFO
+2023-03-30 14:49:32,302 [INFO] my: CHUBU INFO
+2023-03-30 14:52:28,982 [INFO] my: CHOICE GERO INFO
+2023-03-30 14:52:30,207 [INFO] my: GERO INFO
+2023-03-30 14:52:31,601 [INFO] my: CHUBU INFO
+2023-03-30 15:13:22,270 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:13:22,426 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:13:47,360 [WARNING] django.request: Not Found: /
+2023-03-30 15:13:51,483 [INFO] my: LOGIN INFO
+2023-03-30 15:13:51,515 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:13:51,516 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:19:05,658 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:19:05,804 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:19:10,182 [INFO] my:  TAKAYAMA INFO
+2023-03-30 15:19:21,231 [INFO] my:  CHOICE TAKAYAMA INFO
+2023-03-30 15:19:23,715 [INFO] my:  CHUBU INFO
+2023-03-30 15:19:55,881 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:19:56,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:20:10,292 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:20:10,431 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:20:11,980 [INFO] my: LOGIN INFO
+2023-03-30 15:20:12,014 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:20:12,014 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:20:13,932 [INFO] my:   LOGOUT INFO
+2023-03-30 15:20:13,943 [INFO] my: LOGIN INFO
+2023-03-30 15:20:13,954 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:20:13,956 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:20:19,358 [INFO] my: LOGIN INFO
+2023-03-30 15:20:19,471 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:20:19,472 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:20:39,709 [INFO] my:   CHUBU INFO
+2023-03-30 15:20:41,596 [INFO] my:   CHOICE TAKAYAMA INFO
+2023-03-30 15:20:43,360 [INFO] my:   TAKAYAMA INFO
+2023-03-30 15:21:09,090 [INFO] my:   CHOICE TAKAYAMA INFO
+2023-03-30 15:21:22,910 [INFO] my:   CHUBU INFO
+2023-03-30 15:21:24,835 [INFO] my:   CHOICE NAGOYA INFO
+2023-03-30 15:21:26,027 [INFO] my:   NAGOYA INFO
+2023-03-30 15:21:35,955 [INFO] my:   CHUBU INFO
+2023-03-30 15:21:53,511 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:21:53,684 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:21:55,378 [INFO] my:   CHOICE NAGOYA INFO
+2023-03-30 15:21:57,638 [INFO] my: 111 NAGOYA INFO
+2023-03-30 15:22:09,034 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:22:09,204 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:22:10,880 [INFO] my:   CHUBU INFO
+2023-03-30 15:22:15,082 [INFO] my: LOGIN INFO
+2023-03-30 15:22:15,116 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:22:15,116 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:22:17,378 [INFO] my:   LOGOUT INFO
+2023-03-30 15:22:17,388 [INFO] my: LOGIN INFO
+2023-03-30 15:22:17,402 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:22:17,404 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:22:21,649 [INFO] my: LOGIN INFO
+2023-03-30 15:22:21,756 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:22:21,756 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:22:26,841 [INFO] my:   CHUBU INFO
+2023-03-30 15:22:29,162 [INFO] my:   CHOICE NAGOYA INFO
+2023-03-30 15:22:30,819 [INFO] my:   NAGOYA INFO
+2023-03-30 15:24:02,312 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:24:02,463 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:24:11,100 [ERROR] django.request: Internal Server Error: /auth/Chubu
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 88, in Chubu_view
+    logger.info("%s CHUBU INFO", login_user_name)
+                                 ^^^^^^^^^^^^^^^
+NameError: name 'login_user_name' is not defined
+2023-03-30 15:24:17,536 [INFO] my: LOGIN INFO
+2023-03-30 15:24:17,560 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:24:17,562 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:24:19,078 [ERROR] django.request: Internal Server Error: /auth/logout
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 38, in logout_view
+    logger.info("%s LOGOUT INFO", login_user_name)
+                                  ^^^^^^^^^^^^^^^
+NameError: name 'login_user_name' is not defined
+2023-03-30 15:26:03,642 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:26:03,814 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:26:09,177 [INFO] my:  LOGOUT INFO
+2023-03-30 15:26:09,194 [INFO] my: LOGIN INFO
+2023-03-30 15:26:09,216 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:26:09,216 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:26:13,419 [INFO] my: LOGIN INFO
+2023-03-30 15:26:13,531 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:26:13,534 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:26:19,377 [INFO] my:  CHUBU INFO
+2023-03-30 15:26:20,990 [INFO] my:  CHOICE NAGOYA INFO
+2023-03-30 15:26:22,034 [ERROR] django.request: Internal Server Error: /auth/Chubu/Nagoya
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GetNagoya() missing 1 required positional argument: 'login_user_name'
+2023-03-30 15:26:30,766 [INFO] my:  CHUBU INFO
+2023-03-30 15:26:31,660 [INFO] my:  CHOICE TOYAMA INFO
+2023-03-30 15:26:32,529 [INFO] my:  TOYAMA INFO
+2023-03-30 15:26:32,530 [ERROR] django.request: Internal Server Error: /auth/Chubu/Toyama
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 79, in GetToyama
+    return render(request, "users/Toyama.html", login_user_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than str.
+2023-03-30 15:26:55,916 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:26:56,080 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:26:59,341 [INFO] my:  CHOICE NAGOYA INFO
+2023-03-30 15:27:00,196 [INFO] my:  NAGOYA INFO
+2023-03-30 15:27:01,308 [INFO] my:  CHUBU INFO
+2023-03-30 15:28:21,638 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:28:21,816 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:28:24,813 [INFO] my: LOGIN INFO
+2023-03-30 15:28:24,851 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:28:24,852 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:28:26,010 [INFO] my: None LOGOUT INFO
+2023-03-30 15:28:26,021 [INFO] my: LOGIN INFO
+2023-03-30 15:28:26,036 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:28:26,037 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:28:29,743 [INFO] my: LOGIN INFO
+2023-03-30 15:28:29,853 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:28:29,856 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:28:34,959 [INFO] my: None CHUBU INFO
+2023-03-30 15:28:36,548 [INFO] my: None CHOICE NAGOYA INFO
+2023-03-30 15:28:41,235 [INFO] my: None NAGOYA INFO
+2023-03-30 15:36:56,360 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 15:36:56,499 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 15:37:06,159 [INFO] my: None CHUBU INFO
+2023-03-30 15:37:07,872 [INFO] my: LOGIN INFO
+2023-03-30 15:37:07,894 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:37:07,895 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:37:09,232 [INFO] my: None LOGOUT INFO
+2023-03-30 15:37:09,244 [INFO] my: LOGIN INFO
+2023-03-30 15:37:09,263 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:37:09,264 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:37:13,118 [INFO] my: LOGIN INFO
+2023-03-30 15:37:13,227 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:37:13,228 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:37:21,331 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:37:22,944 [INFO] my: user1 CHOICE NAGOYA INFO
+2023-03-30 15:37:23,807 [INFO] my: user1 NAGOYA INFO
+2023-03-30 15:40:23,751 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:40:28,817 [INFO] my: LOGIN INFO
+2023-03-30 15:40:28,849 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:40:28,850 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:40:33,837 [INFO] my: user1 LOGOUT INFO
+2023-03-30 15:40:33,847 [INFO] my: LOGIN INFO
+2023-03-30 15:40:33,860 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:40:33,860 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:40:39,301 [INFO] my: LOGIN INFO
+2023-03-30 15:40:39,412 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:40:39,413 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:40:44,397 [INFO] my: admin CHUBU INFO
+2023-03-30 15:40:49,905 [INFO] my: admin CHOICE TAKAYAMA INFO
+2023-03-30 15:40:50,900 [INFO] my: admin TAKAYAMA INFO
+2023-03-30 15:41:38,061 [INFO] my: admin CHOICE TAKAYAMA INFO
+2023-03-30 15:41:54,981 [INFO] my: admin TAKAYAMA INFO
+2023-03-30 15:41:58,383 [INFO] my: admin CHOICE TAKAYAMA INFO
+2023-03-30 15:42:00,443 [INFO] my: admin CHUBU INFO
+2023-03-30 15:42:01,948 [INFO] my: admin CHOICE TOYAMA INFO
+2023-03-30 15:42:05,056 [INFO] my: admin CHUBU INFO
+2023-03-30 15:42:05,935 [INFO] my: admin CHOICE NAGOYA INFO
+2023-03-30 15:42:06,886 [INFO] my: admin NAGOYA INFO
+2023-03-30 15:49:33,191 [INFO] my: admin CHUBU INFO
+2023-03-30 15:49:34,752 [INFO] my: LOGIN INFO
+2023-03-30 15:49:34,772 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:49:34,773 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:49:37,322 [INFO] my: admin LOGOUT INFO
+2023-03-30 15:49:37,331 [INFO] my: LOGIN INFO
+2023-03-30 15:49:37,349 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:49:37,350 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:49:43,434 [INFO] my: LOGIN INFO
+2023-03-30 15:49:43,548 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:49:43,548 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:49:57,361 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:50:06,101 [INFO] my: LOGIN INFO
+2023-03-30 15:50:06,124 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 15:50:06,125 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 15:50:26,695 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:50:28,080 [INFO] my: user1 CHOICE NAGOYA INFO
+2023-03-30 15:50:29,459 [INFO] my: user1 NAGOYA INFO
+2023-03-30 15:51:39,424 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:51:40,510 [INFO] my: user1 CHOICE TOYAMA INFO
+2023-03-30 15:51:45,392 [INFO] my: user1 CHUBU INFO
+2023-03-30 15:51:46,407 [INFO] my: user1 CHOICE GERO INFO
+2023-03-30 16:33:54,420 [INFO] my: user1 GERO INFO

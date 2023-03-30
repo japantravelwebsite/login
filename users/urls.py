@@ -16,6 +16,9 @@ urlpatterns = [
     path("Chubu", views.Chubu_view, name = 'Chubu'), # jubu path 설정
     path("Wrong", views.Wrong_view, name="Wrong"),# 주부말고 다른거누를때
     path("Chubu/choice", views.choice_view, name="choice"),
+    path("Chubu/choice_gero", views.choice_gero_view, name="choice_gero"),
+    path("Chubu/choice_toyama", views.choice_toyama_view, name="choice_toyama"),
+    path("Chubu/choice_nagoya", views.choice_nagoya_view, name="choice_nagoya"),
 ]
 
 #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
