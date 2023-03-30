@@ -586,3 +586,344 @@ TypeError: context must be a dict rather than str.
 2023-03-30 15:51:45,392 [INFO] my: user1 CHUBU INFO
 2023-03-30 15:51:46,407 [INFO] my: user1 CHOICE GERO INFO
 2023-03-30 16:33:54,420 [INFO] my: user1 GERO INFO
+2023-03-30 16:45:31,800 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:45:35,915 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:46:25,532 [WARNING] django.request: Not Found: /
+2023-03-30 16:46:25,599 [WARNING] django.request: Not Found: /favicon.ico
+2023-03-30 16:46:36,393 [WARNING] django.request: Not Found: /
+2023-03-30 16:46:48,929 [INFO] my: LOGIN INFO
+2023-03-30 16:46:48,955 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:46:48,957 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:46:51,311 [INFO] my: None CHUBU INFO
+2023-03-30 16:46:53,076 [INFO] my: None CHOICE TOYAMA INFO
+2023-03-30 16:46:54,019 [INFO] my: None TOYAMA INFO
+2023-03-30 16:46:54,021 [ERROR] django.request: Internal Server Error: /auth/Chubu/Toyama
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 80, in GetToyama
+    return render(request, "users/Toyama.html", login_user_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/backends/django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/template/context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than str.
+2023-03-30 16:46:58,186 [INFO] my: None CHUBU INFO
+2023-03-30 16:46:59,143 [INFO] my: None CHOICE TAKAYAMA INFO
+2023-03-30 16:46:59,926 [INFO] my: None TAKAYAMA INFO
+2023-03-30 16:47:38,407 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 16:47:38,565 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:47:44,324 [INFO] my: None TAKAYAMA INFO
+2023-03-30 16:47:58,845 [INFO] my: None CHOICE TAKAYAMA INFO
+2023-03-30 16:49:39,342 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 16:49:39,494 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:49:50,103 [INFO] my: None CHUBU INFO
+2023-03-30 16:49:56,137 [INFO] my: None CHOICE TOYAMA INFO
+2023-03-30 16:49:57,277 [INFO] my: None TOYAMA INFO
+2023-03-30 16:50:12,731 [INFO] my: None CHUBU INFO
+2023-03-30 16:50:15,916 [INFO] my: None CHOICE NAGOYA INFO
+2023-03-30 16:50:18,796 [INFO] my: None NAGOYA INFO
+2023-03-30 16:51:04,158 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 16:51:04,400 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:51:09,807 [INFO] my: None CHUBU INFO
+2023-03-30 16:51:10,660 [INFO] my: LOGIN INFO
+2023-03-30 16:51:10,680 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:51:10,681 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:51:12,001 [INFO] my: None LOGOUT INFO
+2023-03-30 16:51:12,012 [INFO] my: LOGIN INFO
+2023-03-30 16:51:12,025 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:51:12,026 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:51:18,398 [INFO] my: LOGIN INFO
+2023-03-30 16:51:18,505 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:51:18,505 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:51:21,830 [INFO] my: user1 CHUBU INFO
+2023-03-30 16:51:23,913 [INFO] my: LOGIN INFO
+2023-03-30 16:51:23,937 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:51:23,938 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:51:29,684 [INFO] my: user1 CHUBU INFO
+2023-03-30 16:51:38,494 [INFO] my: user1 CHOICE NAGOYA INFO
+2023-03-30 16:51:39,594 [INFO] my: user1 NAGOYA INFO
+2023-03-30 16:53:04,917 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 16:53:05,079 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:53:10,072 [INFO] my: None CHUBU INFO
+2023-03-30 16:53:17,443 [INFO] my: None CHOICE TAKAYAMA INFO
+2023-03-30 16:53:18,339 [INFO] my: None TAKAYAMA INFO
+2023-03-30 16:54:03,193 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 16:54:03,351 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 16:54:13,809 [INFO] my: None CHOICE TAKAYAMA INFO
+2023-03-30 16:54:16,215 [INFO] my: None CHUBU INFO
+2023-03-30 16:54:16,731 [INFO] my: LOGIN INFO
+2023-03-30 16:54:16,753 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:54:16,753 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:54:18,649 [INFO] my: None LOGOUT INFO
+2023-03-30 16:54:18,659 [INFO] my: LOGIN INFO
+2023-03-30 16:54:18,678 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:54:18,679 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:54:22,936 [INFO] my: LOGIN INFO
+2023-03-30 16:54:23,043 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 16:54:23,043 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 16:54:26,027 [INFO] my: user1 CHUBU INFO
+2023-03-30 16:54:27,472 [INFO] my: user1 CHOICE TAKAYAMA INFO
+2023-03-30 16:54:28,632 [INFO] my: user1 TAKAYAMA INFO
+2023-03-30 16:54:28,633 [ERROR] django.request: Internal Server Error: /auth/Chubu/Takayama
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 74, in GetTakayama
+    print(logger.info("%s TAKAYAMA INFO", login_user_name) +"test")
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+2023-03-30 17:43:52,067 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 17:43:52,218 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 17:43:58,113 [WARNING] django.request: Not Found: /
+2023-03-30 17:44:03,313 [INFO] my: USER:None LOAD CHUBU PAGE
+2023-03-30 17:44:06,647 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:44:06,666 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:44:06,667 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:44:09,298 [INFO] my: LOAD LOGOUT PAGE
+2023-03-30 17:44:09,305 [INFO] my: USER:None LOGOUT SUCCESSED
+2023-03-30 17:44:09,309 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:44:09,320 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:44:09,322 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:44:38,045 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:45:09,192 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:45:09,192 [INFO] my: USER:user2 SIGNUP FAILED
+2023-03-30 17:45:23,668 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:45:23,669 [INFO] my: USER:user2 SIGNUP FAILED
+2023-03-30 17:45:44,964 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:45:45,064 [ERROR] django.request: Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: users_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 60, in signup_view
+    user = User.objects.create_user(username, email, password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/models.py", line 161, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: users_user.username
+2023-03-30 17:48:16,309 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:48:16,402 [ERROR] django.request: Internal Server Error: /auth/signup
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: users_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py", line 60, in signup_view
+    user = User.objects.create_user(username, email, password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/models.py", line 161, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 68, in save
+    super().save(*args, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 812, in save
+    self.save_base(
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/anaconda3/envs/my_env/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: users_user.username
+2023-03-30 17:50:52,082 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 17:50:56,014 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 17:50:58,392 [WARNING] django.request: Not Found: /
+2023-03-30 17:50:58,460 [WARNING] django.request: Not Found: /favicon.ico
+2023-03-30 17:51:04,447 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:51:04,469 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:51:04,470 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:51:11,976 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:51:45,556 [INFO] my: LOAD SIGNUP PAGE
+2023-03-30 17:51:45,650 [INFO] my: USER:user3 SIGNUP SUCCESSED
+2023-03-30 17:51:45,654 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:51:45,670 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:51:45,671 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:52:07,192 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:52:07,287 [INFO] my: USER:user3 LOGIN SUCCESSED
+2023-03-30 17:52:07,303 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:52:07,305 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:52:27,297 [INFO] my: USER:user3 WRONG PAGE
+2023-03-30 17:52:33,267 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:52:33,290 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:52:33,294 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:52:35,073 [INFO] my: USER:user3 LOAD CHUBU PAGE
+2023-03-30 17:52:43,099 [INFO] my: USER:user3 LOAD TOYAMA PIC/MOV CHOICE PAGE
+2023-03-30 17:52:49,505 [INFO] my: USER:user3 LOAD TOYAMA PAGE
+2023-03-30 17:52:54,550 [INFO] my: USER:user3 LOAD CHUBU PAGE
+2023-03-30 17:52:56,830 [INFO] my: USER:user3 LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 17:53:00,805 [INFO] my: USER:user3 LOAD TAKAYAMA PAGE
+2023-03-30 17:53:04,413 [INFO] my: USER:user3 LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 17:53:06,363 [INFO] my: USER:user3 LOAD CHUBU PAGE
+2023-03-30 17:53:07,933 [INFO] my: USER:user3 LOAD NAGOYA PIC/MOV CHOICE PAGE
+2023-03-30 17:53:11,866 [INFO] my: USER:user3 LOAD NAGOYA PAGE
+2023-03-30 17:53:15,960 [INFO] my: USER:user3 LOAD CHUBU PAGE
+2023-03-30 17:53:18,312 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:53:18,330 [WARNING] django.request: Not Found: /auth/Scripts/jquery-1.4.1.min.js
+2023-03-30 17:53:18,330 [WARNING] django.request: Not Found: /auth/Scripts/maphighlight.js
+2023-03-30 17:53:49,900 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/views.py changed, reloading.
+2023-03-30 17:53:50,075 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 17:54:00,504 [INFO] my: LOAD LOGOUT PAGE
+2023-03-30 17:54:00,513 [INFO] my: USER:None LOGOUT SUCCESSED
+2023-03-30 17:54:00,521 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:54:51,193 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:54:51,287 [INFO] my: USER:user1 LOGIN SUCCESSED
+2023-03-30 17:54:52,490 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 17:54:58,955 [INFO] my: LOAD LOGOUT PAGE
+2023-03-30 17:54:58,963 [INFO] my: USER:user1 LOGOUT SUCCESSED
+2023-03-30 17:54:58,968 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 18:31:03,525 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/jtwsite/settings.py changed, reloading.
+2023-03-30 18:31:03,728 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 18:31:17,052 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 18:31:17,052 [INFO] my2: Something is happening
+2023-03-30 18:31:17,139 [INFO] my: USER:user1 LOGIN SUCCESSED
+2023-03-30 20:50:12,389 [INFO] django.utils.autoreload: /Users/jeonchanwoong/Documents/programming/Web/JTWpy/login/users/urls.py changed, reloading.
+2023-03-30 20:50:12,579 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-03-30 20:50:17,416 [WARNING] django.request: Not Found: /
+2023-03-30 20:50:21,314 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 20:50:23,170 [INFO] my: USER:None LOAD CHUBU PAGE
+2023-03-30 20:50:24,508 [INFO] my: USER:None LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 20:50:25,924 [INFO] my: USER:None LOAD TAKAYAMA_MOV PAGE
+2023-03-30 20:51:27,075 [INFO] my: USER:None LOAD TAKAYAMA_MOV PAGE
+2023-03-30 20:57:18,272 [INFO] my: USER:None LOAD TAKAYAMA PAGE
+2023-03-30 20:57:20,069 [INFO] my: USER:None LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 20:57:20,971 [INFO] my: USER:None LOAD TAKAYAMA PAGE
+2023-03-30 20:57:24,905 [INFO] my: USER:None LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 20:57:25,832 [INFO] my: USER:None LOAD TAKAYAMA_MOV PAGE
+2023-03-30 20:58:12,676 [INFO] my: USER:None LOAD CHUBU PAGE
+2023-03-30 20:58:13,382 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 20:58:15,275 [INFO] my: LOAD LOGOUT PAGE
+2023-03-30 20:58:15,280 [INFO] my: USER:None LOGOUT SUCCESSED
+2023-03-30 20:58:15,283 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 20:58:22,163 [INFO] my: LOAD LOGIN PAGE
+2023-03-30 20:58:22,257 [INFO] my: USER:user3 LOGIN SUCCESSED
+2023-03-30 20:58:25,008 [INFO] my: USER:user3 LOAD CHUBU PAGE
+2023-03-30 20:58:26,324 [INFO] my: USER:user3 LOAD TAKAYAMA PIC/MOV CHOICE PAGE
+2023-03-30 20:58:27,116 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 20:58:34,772 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:03:50,280 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:03:50,306 [WARNING] django.request: Not Found: /auth/Chubu/123.mp4
+2023-03-30 21:05:00,923 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:05:00,941 [WARNING] django.request: Not Found: /auth/Chubu/static/123.mp4
+2023-03-30 21:05:58,094 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:06:00,121 [WARNING] django.request: Not Found: /favicon.ico
+2023-03-30 21:10:01,957 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:10:56,973 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:12:18,319 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:15:44,653 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:19:42,015 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:21:06,076 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:21:08,932 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE
+2023-03-30 21:23:58,748 [INFO] my: USER:user3 LOAD TAKAYAMA_MOV PAGE

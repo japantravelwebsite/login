@@ -151,12 +151,15 @@ LOGGING = {
         'standard': {
             'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
         },
+        'json': {
+            '()': 'pythonjsonlogger.jsonlogger.JsonFormatter'}
     },
     'handlers': {
         'console': {
             'level': 'INFO',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
+            'formatter': 'json',
         },
         'django.server': {
             'level': 'INFO',
@@ -193,5 +196,9 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
+        'my2': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        }
     }
 }
