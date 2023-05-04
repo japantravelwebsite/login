@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+    <script>
+        function redirectToUrl_toyama() {
+            var url = "{% url 'user:choice_toyama' %}";
+            window.location.href = url;
+        }
+        function redirectToUrl_Nagoya() {
+            var url = "{% url 'user:choice_nagoya' %}";
+            window.location.href = url;
+        }
+        function redirectToUrl_Takayama() {
+            var url = "{% url 'user:choice' %}";
+            window.location.href = url;
+        }
+        function redirectToUrl_Gero() {
+            var url = "{% url 'user:choice_gero' %}";
+            window.location.href = url;
+        }
+        function redirectToUrl_Shirikawago() {
+            var url = "{% url 'user:choice_shirakawago' %}";
+            window.location.href = url;
+        }
+        </script>
+        <div class="container">
+        <div class="login-form-map">
+        <div id="tooltip">주부지방
+            <h1></h1>
+    
+        
+        
+
+        <p><a href="{% url 'user:GetBacktoLogin' %}">뒤로가기</a></p>
+        <div style="position: relative;">
+            <img src="{% static 'image5.jpg' %}" alt="Background Image" width="500px" style="margin-left: -100px;">
+            <img src="{% static 'nagoya_img.png' %}" alt="Top Image" 
+            style="position: absolute; top: 390px; left: 110px; z-index: 1; width: 50px"  onclick=redirectToUrl_Nagoya()>
+            <img src="{% static 'shirakawago_img.png' %}" alt="Top Image"
+             style="position: absolute; top: 220px; left: 120px; z-index: 1 ; width: 50px"  onclick=redirectToUrl_Shirikawago()>
+            <img src="{% static 'takayama_img.png' %}" alt="Top Image" 
+            style="position: absolute; top: 150px; left: 160px; z-index: 1 ; width: 50px"  onclick=redirectToUrl_Takayama()>
+            <img src="{% static 'toyama_img.png' %}" alt="Top Image" 
+            style="position: absolute; top: 50px; left: 150px; z-index: 1 ; width: 50px"  onclick=redirectToUrl_toyama()>
+            <img src="{% static 'gero_img.png' %}" alt="Top Image"   
+            style="position: absolute; top: 300px; left: 90px; z-index: 1 ; width: 50px"  onclick=redirectToUrl_Gero()>
+           
+        </div>
+    </div>
+</div>
+</div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <br>
+
+        <br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        
+
+
+
+
+        <div>
+
+        <img src="/static/image/image4.jpg" alt="" usemap="#imgmap2023312235654" >
+        <map id="imgmap2023312235654" name="imgmap2023312235654">
+            <area shape="rect" alt="Toyama"  title="Toyama" coords="494,14,584,84" href="{% url 'user:choice_toyama' %}" target="" />
+            <area shape="rect" alt="Takayama" title="Takayama" coords="514,261,599,328" href="{% url 'user:choice' %}" target="" />
+            <area shape="rect" alt="Gero" title="Gero" coords="495,419,613,498" href="{% url 'user:choice_gero' %}" target=""  />
+            <area shape="rect" alt="Nagoya" title="Nagoya" coords="355,681,499,773" href="{% url 'user:choice_nagoya' %}" target=""  /><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map>
+
+
+    </div>
+</body>
+</html>

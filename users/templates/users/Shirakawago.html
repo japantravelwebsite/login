@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style>
+      body {
+        font-family: Consolas, monospace;
+      }
+      img {
+        max-width: 100%;
+      }
+      .a {
+        width: 200px;
+      }
+      .a img {
+        transition: all 0.2s linear;
+      }
+      .a:hover img {
+        transform: scale(1.4);
+      }
+      .b {
+        width: 200px;
+      }
+      .b img {
+        transition: all 0.2s linear;
+      }
+      .b:hover img {
+        transform: scale(1.4);
+      }
+      .c {
+        width: 200px;
+      }
+      .c img {
+        transition: all 0.2s linear;
+      }
+      .c:hover img {
+        transform: scale(1.4);
+      }
+      .d {
+        width: 200px;
+      }
+      .d img {
+        transition: all 0.2s linear;
+      }
+      .d:hover img {
+        transform: scale(1.4);
+      }
+
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .image-container img {
+          width: 200px;
+          object-fit: cover;
+          transition: transform 0.3s;   
+      }
+
+        .image-container img:hover {
+          transform: scale(1.4);
+      }
+    </style>
+</head>
+<body>
+    <h1>시라카와고</h1>
+    <div class="a">
+        <img src="/static/image/Takayama.JPG" alt="">
+    </div>
+    <div class="b">
+        <img src="/static/image/Takayama2.JPG" alt="">
+    </div>
+
+
+    <div class = "image-container">
+        
+            <div>
+                <img src="/static/image/Shirakawago1.jpeg" alt="">
+                <img src="/static/image/Shirakawago2.jpeg" alt="">
+                
+            </div>
+        </p>
+        
+    </div>
+
+
+<!--
+    <div class="c">
+        <img src="http://drive.google.com/uc?export=view&id=1Qf-r6-nED7SqUUhrKiwa5ZNEk_uggRgG" alt="sadfdsaf">
+    </div>
+    <div class="d">
+        <img src="http://drive.google.com/uc?export=view&id=1xm-E8596oYhxu69HGL5PAIix2TYeDbVd" alt="sadfdsaf">
+    </div>
+-->
+
+
+    <p><a href="{% url 'user:choice' %}">뒤로가기</a></p>
+</body>
+</html>

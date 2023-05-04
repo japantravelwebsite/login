@@ -1,0 +1,33 @@
+choice platform
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Image on Image</title>
+   <style>
+      .container {
+         position: relative;
+      }
+      .chubu-image {
+         position: absolute;
+         top: 400px;
+         left: 100px;
+         z-index: 1;
+         width: 100px;
+      }
+      .chugoku-image {
+         position: absolute;
+         top: 400px;
+         left: 400px;
+         z-index: 1;
+         width: 100px;
+      }
+   </style>
+</head>
+    {% load static %}
+    <div class="container">
+        <img src="{% static 'chubu2.png' %}" alt="Top Image" class="chubu-image"  onclick="location.href='Shirakawago'">
+        <img src="{% static 'chugoku.png' %}" alt="Top Image" class="chugoku-image" onclick="location.href='Shirakawago'" >
+   </div>
+   <p><a href="{% url 'user:Chubu' %}">뒤로가기</a></p>
+</body>
+</html>

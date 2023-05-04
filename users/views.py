@@ -105,6 +105,11 @@ def GetBacktoLogin():
     logger.info("USER:%s LOAD NAGOYA PAGE", login_user_name)
     return redirect("user:login")
 
+def GetShirakawago(request):
+    logger.info("USER:%s LOAD SHIRAKAWAGO PAGE", login_user_name)
+    #imgs = picture_db.objects.get(location = "Gero")
+    return render(request, "users/Shirakawago.html")
+
 def Chubu_view(request):
     logger.info("USER:%s LOAD CHUBU PAGE", login_user_name)
     return render(request, "users/Chubu.html")
@@ -135,3 +140,6 @@ def choice_toyama_view(request):
     logger.info("USER:%s LOAD TOYAMA PIC/MOV CHOICE PAGE", login_user_name)
     return render(request, "users/choice_toyama.html")
 
+def choice_shirakawago_view(request):
+    logger.info("USER:%s LOAD SHIRAKAWAGO PIC/MOV CHOICE PAGE", login_user_name)
+    return render(request, "users/choice_shirakawago.html")
